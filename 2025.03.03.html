@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podział strony na bloki - wewnętrzne blok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main> blok główny 
+        <header id="glowny">
+            <p>blok nagłówka w paragrafie</p>
+            <header id="header1">
+                <p>blok nagłówka 1</p>
+            </header>
+            <header id="header2">
+                <p>blok nagłówka 2</p>
+            </header>
+        </header>
+        <section id="lewy">
+        <p>sekcja lewa</p>
+        </section>
+        <section id="prawy">
+            <p>sekcja prawa</p>
+            <section id="prawy1" class="prawe">
+                <p>sekcja prawa 1</p>
+            </section>
+            <section id="prawy2" class="prawe">
+                <p>sekcja prawa 2</p>
+            </section>
+        </section>
+        <footer id="stopka1" class="stopka">
+        <p>stopka 1</p>
+        </footer>
+        <footer id="stopka2" class="stopka">
+        <p>stopka 2</p>   
+        </footer>
+    </main>
+</body>
+</html>

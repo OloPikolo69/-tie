@@ -1,0 +1,45 @@
+#glowna{
+    width: 80%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+}
+#sekcjalewa, #sekcjaprawa{
+    width: 20%;
+    padding: 2%;
+    background-color: bisque;
+    float: left;
+    height: 750px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+#sekcjasrodek{
+    width: 40%;
+    padding: 2%;
+    background-color: cadetblue;
+    float: left;
+    height: 750px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+#blokSrodek1, #blokSrodek3{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 1%;
+    background-color: chocolate;
+}
+#blokSrodek2{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 1%;
+    background-color: chocolate;
+}
+#blokSrodek2a, #blokSrodek2b, #blokPrawy1a, #blokPrawy1b{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    height: 40%;
+}
+
