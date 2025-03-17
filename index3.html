@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Znaczniki html</title>
+</head>
+<body>
+    <header>
+        <h1>Znaczniki HTML</h1>
+    </header>
+    <main>
+        <em> &lt;title&gt; &lt;/title&gt;</em> - znaczniki tytułu strony pojawiającego się u góry strony <br>
+        <em>&lt;head&gt; &lt;/head&gt;</em> - znacznik sekcji nagłówkowej, tutaj wpisujemy informacje o stronie, dołączamy inne pliki, dodajemy słowa kluczowe, sposób wyświetlania strony i inne <br>
+        <em>&lt;!DOCTYPE html&gt;</em> - określa jaki to jest typ dokumentu, wymagany zgodnie z HTML5 <br>
+        <em>&lt;html&gt; &lt;/html&gt;</em> - określa początek i koniec dokumentu html <br>
+        <em>&lt;html lang="pl"&gt;</em> - określa w jakim języku została napisana strona, pomaga w przypadku tłumaczenia strony na inne języki za pomocą przeglądarki <br>
+        <em>&lt;meta charset="UTF-8"&gt;</em> - określa kodowanie znaków na stronie, UTF-8 zapewnia kodowanie polskich znaków <br>
+        <em> &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</em> - ustalenie rozmiaru strony do urządzenia - responsywność
+        <em>&lt;body&gt; &lt;/body&gt;</em> - zawartośc strony, to co się wyświetla w przeglądarce<br>
+        <h2>Znaczniki blokowe strony, semantyczny podział strony</h2>
+        <em>&lt;header&gt;&lt;/header&gt;</em> - znacznik bloku banera, nagłówkowego, zgodny z html5<br>
+        <em>&lt;section&gt;&lt;/section&gt;</em> - znacznik blokowy ogólnego przeznaczenia, uniwersalny, zazwyczaj dodajemy do niego klasę lub id, zgodny html5 <br>
+        <em>&lt;footer&gt;&lt;/footer&gt;</em> - znacznik blokowy stopki, zgodny z html5, można tutaj wprowadzać np dane kontaktowe, informacje prawne dotyczące strony<br>
+        <em>&lt;main&gt;&lt;/main&gt;</em> - znacznik blokowy sekcji, określa główną częśc strony, zgodny z html5<br>
+        <em>&lt;aside&gt;&lt;/aside&gt;</em> - znacznik blokowy sekcji, zgodny z html5, dotyczny bloku który jest z boku strony<br>
+        <em>&lt;article&gt;&lt;/article&gt;</em> - znacznik blokowy strony, zgodny z html5, dotyczny np jakieś artykułu, wzmianki na stronie<br>
+        <em>&lt;nav&gt;&lt;/nav&gt;</em> - znacznik blokowy dotyczący nawigacji strony, zgodny z html5 <br>
+        <em>&lt;p&gt;&lt;/p&gt;</em> - znacznik akapitu, paragrafu - fragment tekstu <br>
+        <h2>Znaczniki nagłówka</h2>
+        <em>&lt;h1&gt;&lt;/h1&gt;</em> - znacznik nagłówka, teksu bardziej istotnego. Dostępne są poziomy od 1 do 6 <br>
+        <h2>Znaczniki ciała strony</h2>
+        <em>&lt;hr&gt;</em> - linia horyzontalna, linia pozioma na stronie, słuy do rozdzielania tekstu itp.<br>
+        <em>&lt;br&gt;</em> - znacznik nowej linii, w starszych wersjach html można go spotkać z ukośnikiem na końcu<br>
+        <em>&lt;em&gt;&lt;/em&gt;</em> <br>
+        <em>&lt; &gt;</em> podkreślenie, uwypuklenie, zastowany w html5, oprócz wyglądu informuje o ważności tekstu <br>
+        <em>&lt;i&gt;&lt;/i&gt;</em> - italic czyli pochylenie. Tylko zmienia wygląd tekstu. Został zastąpiony w html5 przez znacznik &lt;em&gt; <br>
+        <em>&lt;b&gt;&lt;/b&gt;</em> - bold, teskt pogrubiony bez dodatkowego znacznia, został zastiony w HTML5 przez znacznik &lt;strong&gt;<br>
+        <em>&lt;strong&gt;&lt;/strong&gt;</em> - tekst o większym znaczeniu i pogrubiony<br>
+        <h2>Listy w HTML
+        </h2>
+        <em>&lt;ol&gt;&lt;/ol&gt;</em> - początek i koniec listy uporządkowanej (ma numery pozycji) <br>
+        <em>&lt;ul&gt;&lt;/ul&gt;</em> - początek i koniec listy nieuporządkowanej <br>
+        <em>&lt;li&gt;&lt;/li&gt;</em> - element składowy listy - jedno jej wystąpienie <br>
+        <em>&lt;dl&gt;&lt;dl&gt;</em> - początek i koniec listy definicji <br>
+        <em>&lt;dd&gt;&lt;dd&gt;</em> - definicję z listy definicji<br>
+        <h2>Typy list dopisujemy to w znaczniku listy - ul lub ol</h2>
+        <em>type="1"</em> - ponumerowane liczbami arabskimi <br>
+        <em>type="A"</em> - ponumerowane wielkimi literami <br>
+        <em>type="a"</em> - ponumerowane lmałymi literami <br>
+        <em>type="I"</em> - ponumerowane dużymy cyframi rzymskimi <br>
+        <em>type="i"</em> - ponumerowane małymi cyframi rzymskimi <br>
+        <h2>Tabele
+        </h2>
+        <em>&lt;table&gt;&lt;/table&gt;</em>-znacznik otwierający i zamykający tabelę <br>
+        <em>&lt;tr&gt;&lt;/tr&gt;</em> - wiersz tabeli<br>
+        <em>&lt;td&gt;&lt;/td&gt;</em> -komórka tabeli<br>
+        <em>&lt;thead&gt;&lt;/thead&gt;</em> - znacznik sekcji nagłówka tabeli <br>
+        <em>&lt;tbody&gt;&lt;/tbody&gt;</em> - znacznik sekcji zawartości tabeli<br>
+        <em>&lt;th&gt;&lt;/th&gt;</em> - znacznik komórki nagłówkowej<br>
+        <em>&lt;caption&gt;&lt;/caption&gt;</em> - znacznik tytułu tabeli, ma być między znacznikami table<br>
+        <em>border:</em> - selektor CSS określający obramowanie, przyjmuje maksymalnie 3 parametry. Pierwszy parametr określa szerokość linii(lub użyć border-width), drugi parametr określa styl lini (border-style), trzeci parametr określa kolor linii (border-color) <br>
+        <em>border-collapse</em> - określa jak zachowuje się obramowanie jak jest obo innego obramowania. Separate - pokazywane są oba obramowania, collapse - pokazywane jest jako jedno obramowanie <br>
+        <em>rowspan="2"</em>-połączenie dwóch wierszy ze sobą<br>
+        <em>colspan="2"</em>-połączenie dwóch kolumn ze sobą <br>
+        <em>padding</em>-margenise wewnętrz, można wykorzystać to wewnątrz komórek tabeli <br>
+        <em>text-align</em> - wyrównanie tekstu
+        <h2>Obrazy</h2>
+        <em>&lt;img src="lokalizacja obrazu"&gt;</em> - znacznik wstawiania obrazu na stronę, w parametrze src należy podać adres obrazu lub link do niego<br>
+        <em>&lt;figure&gt;&lt;/figure&gt;</em> -znacznik określający obszar zdjęcia razem z tytułem. wewnątrz tych znaczników będą img i figcaption<br>
+        <em>&lt;figcaption&gt;&lt;/figcaption&gt;</em> - opis/ podpis zdjęcia <br>
+        <h4>Atrybuty dla znacznika img:
+        </h4>
+        <em>src</em> lokalicja zdjecia<br>
+        <em>width</em> - szerokośc zdjecia<br>
+        <em>height</em> - wysokość obrazu<br>
+        <em>alt</em> - tekst alternatywny pojawiający się w momecie gdy nie można wyświetlić zdjęcia<br>
+        <em>title</em> - tekst pojawiający się po najechaniu na zdjęcie<br>
+        <h2>Odsyłacze</h2>
+        <em>&lt;a href="adres"&gt;&lt;/a&gt;</em> - odnośnik, hiperłącze do innego miejsca lub strony, można nim obudować inne bloki <br>
+        <em> target=""</em> - ustala w jaki sposób otwiera się hiperłącze. _blank - otwiera w nowe karcie, _self - otworzy się w tej samej karcie, ustawione domyślnie, _parent - otwiera się w ramce rodzica, _top - otaworzy na całej stronie <br>
+        <em>&lt;a name="adres"&gt;&lt;/a&gt;</em> - odnośnik, hiperłącze do innego miejsca na tej stronie - przewijanie strony. Aby to działało musi być na stronie element z id podanym jako "adres" <br>
+        <em>&lt;map name=""&gt;&lt;/map&gt;</em> - początek mapy odsylaczy. Możemy określić nie tylko konkretny element ale także jego fragment np. część zdjęcia. Wewnątrz tego znacznika będzie znajdował się znacznik area <br>
+        <em>&lt;area&gt;&lt;/area&gt;</em> -znacznik określający odnośnik mapy. Może zawierać parametry shape - kształ, coords - kordynaty, inaczej współrzędne, href - adres odnośnika, alt - tekst alternatywny<br>
+        <img src="CSS.png" alt="Zdjęcie" usemap="#zdjCSS" width="300" height="300">
+        <map name="zdjCSS">
+            <area shape="rect" coords="100,100,270,350" alt="Computer" href="https://allegro.pl/">
+        </map>
+        
+        <img src="CSS.png" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+        <map name="workmap">
+          <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://allegro.pl/">
+          <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+          <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+        </map> 
+        <h2>Formularze</h2>
+        <em>&lt;form&gt;&lt;/form&gt;</em> rozpoczyna i kończy zakres formularz, zgrupować dane przesyłane <br>
+        <em>&lt;form action=""&gt;&lt;</em>/form&gt;</em> przesyłanie danych w formularz do miejsca określonego w parametrze action <br>
+        <em>&lt;form method=""&gt;&lt;/form&gt;</em> - sposób przesyałania danych w formularzu. występują dwie opcje GET i POST. Metoda GET przesyła dane jawnym tekstem, Metoda POST przesyła ukrytem tekstem, bezpiecznie. Domyślnie wybieran metoda GET <br>
+        <em>&lt;input type=""&gt;&lt;/input&gt;</em> pole do wprowadzania danych. Może przyjmować następujące typy: "text" - tekst, "number" - liczby, pole ma suwak do zmiany wartości, "date" - do przechowywania daty, ma przycisk do rozwinięcia kalendarza, "submit" - przycisk zatwierdzenia formularza, przesyła dane wprowadzane w formularzu  <br>
+        <em>&lt;&gt;&lt;&gt;</em> <br>
+        <em>&lt;&gt;&lt;&gt;</em> <br>
+    </main>
+</body>
+</html>
